@@ -8,4 +8,4 @@ Don't, right now. Haste will become a full programming language. It is ment to r
 
 # Docs
 
-Coming soon.
+Coming soon. (See `./src/tokens.go` for some level of guidence)
