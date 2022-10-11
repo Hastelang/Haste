@@ -30,6 +30,7 @@ const (
 	Character
 	MemoryAddress
 	// Mathematical operators
+	Set
 	Additon
 	AddAndSet
 	Subtraction
@@ -73,7 +74,23 @@ const (
 	// Other Operators
 	OpenGroup
 	CloseGroup
-	// Todo: Add more tokens
+	// Usages
+	VariableUsage
+	ConstantUsage
+	FunctionUsage
+	// Functions
+	Parameter
+	ParameterDelimiter
+	ReturnType
+	Return
+	// Objects
+	Public
+	Single
+	Extends
+	ExtendsDelimiter
+	Constructor
+	Destructor
+	// Todo: Add the remaining tokens
 )
 
 type Token struct {
