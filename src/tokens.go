@@ -53,24 +53,42 @@ const (
 	LessThanOrEquals
 	GreaterThanOrEquals
 	Not
+	NotAndSet
 	And
+	AndAndSet
 	Or
+	OrAndSet
 	Xor
+	XorAndSet
 	Nand
+	NandAndSet
 	Nor
+	NorAndSet
 	Xnor
+	XnorAndSet
 	// Binary operators
 	LeftShift
+	LeftShiftAndSet
 	RightShift
+	RightShiftAndSet
 	LeftRotate
+	LeftRotateAndSet
 	RightRotate
+	RightRotateAndSet
 	BinaryNot
+	BinaryNotAndSet
 	BinaryAnd
+	BinaryAndAndSet
 	BinaryOr
+	BinaryOrAndSet
 	BinaryXor
+	BinaryXorAndSet
 	BinaryNand
+	BinaryNandAndSet
 	BinaryNor
+	BinaryNorAndSet
 	BinaryXnor
+	BinaryXnorAndSet
 	// Other Operators
 	OpenGroup
 	CloseGroup
