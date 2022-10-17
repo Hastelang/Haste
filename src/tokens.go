@@ -29,6 +29,10 @@ const (
 	FloatingPoint128
 	Character
 	MemoryAddress
+	Type
+	// Other builtin types
+	Array
+	List
 	// Mathematical operators
 	Set
 	Additon
