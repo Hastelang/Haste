@@ -103,17 +103,33 @@ const (
 	FunctionUsage
 	// Functions
 	Parameter
-	ParameterDelimiter
 	ReturnType
 	Return
 	// Objects
 	Public
 	Single
 	Extends
-	ExtendsDelimiter
 	Constructor
 	Destructor
-	// Todo: Add the remaining tokens
+	// Loops
+	Loop
+	Skip
+	Break
+	// Multithreading
+	Thread
+	ThreadNumber
+	Volitile
+	// Compiler builtins
+	CompilerFunctionTypeSet
+	CompilerFunctionTypeGet
+	// Scoping
+	EnterScopeLevel
+	LeaveScopeLevel
+	Parent
+	// Other
+	Delimiter
+	Entry
+	InsertLLVM
 )
 
 type Token struct {
