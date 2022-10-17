@@ -32,6 +32,7 @@ const (
 	Type
 	// Other builtin types
 	Array
+	ArraySize
 	List
 	// Mathematical operators
 	Set
