@@ -4,7 +4,7 @@ Haste is a programming language in the (Insert Greek letter before alpha here) s
 
 # Why use Haste
 
-Don't, right now. Haste will become a full programming language. It will rival Rust in terms of correctness and safety, while cutting the learning curve dramatically.
+Don't, right now. Haste should eventually become a full programming language. And it should eventually rival Rust in terms of correctness and safety, while cutting the learning curve dramatically.
 
 # Docs
 
