@@ -30,6 +30,7 @@ const (
 	Character
 	MemoryAddress
 	Type
+	Void
 	// Other builtin types
 	Array
 	ArraySize
@@ -108,6 +109,9 @@ const (
 	// Objects
 	Public
 	Single
+	Base
+	Final
+	Self
 	Extends
 	Constructor
 	Destructor
@@ -115,6 +119,10 @@ const (
 	Loop
 	Skip
 	Break
+	// Conditional logic
+	If
+	Other
+	Match
 	// Multithreading
 	Thread
 	ThreadNumber
@@ -126,6 +134,9 @@ const (
 	EnterScopeLevel
 	LeaveScopeLevel
 	Parent
+	// Goto
+	Goto
+	GotoLabel
 	// Other
 	Delimiter
 	Entry
